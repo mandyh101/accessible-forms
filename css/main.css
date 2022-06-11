@@ -1,0 +1,74 @@
+/* 
+*{
+
+} */
+
+/* @font-face {
+  font-family: 'Quicksand', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+}; */
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  color: #0B0728;
+}
+
+
+
+.centerThings {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50vw;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 1em 0 0 0;
+}
+
+label {
+  display: inline-block;
+  font-size: .9em;
+  padding: 0 0 4px 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 300;
+  font-size:.8em ;
+}
+
+.required {
+  font-weight: 700;
+  color: red;
+}
+
+input {
+  margin-bottom: 16px;
+  padding: 8px;
+  font-size: 20px;
+  color: #0B0728;
+  border-radius: 4px;
+  border: 1px solid #8C899C;
+  width: 50vw;
+}
+
+button {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 8px 24px;
+  background-color: #2E1BA6;
+  border: 1px solid #2E1BA6;
+  color: #FAFAFA;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
