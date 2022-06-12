@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/main.css" rel="stylesheet" >
+  <title>Accessible web forms</title>
+</head>
+<body>
+  <!-- STEP 3 - properly programming your form -->
+  <!-- there are two ways that you can do this, I have used both in my example -->
+  <div class="centerThings">
+    <h1>Let's make a basic subscription form!</h1>
+    <p>Sign up below 👇🏼 </p>
+    <form action="" method="post">
+      <label for="full-name"><span class="required">*</span>Enter your full name</label>
+      <input type="text" name="name" id="full-name">
+      <label><span class="required">*</span>Enter your email
+        <input type="email" name="full-name" required>
+      </label>
+      <label><span class="required">*</span>Enter your mobile number
+        <p><em>Example format: XXX XXX XXXX</em></p> <!--pplaceholder outside of box-->
+        <input type="number" name="mobile-number">
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>

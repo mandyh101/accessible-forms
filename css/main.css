@@ -61,7 +61,21 @@ input {
   width: 50vw;
 }
 
+/* button for example one and two */
 button {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 8px 24px;
+  background-color: #8C899C;
+  border: 1px solid #8C899C;
+  color: black;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* button for focus style */
+/* button {
   font-size: 24px;
   font-weight: 600;
   padding: 8px 24px;
@@ -71,4 +85,17 @@ button {
   border-radius: 4px;
   width: 100%;
   cursor: pointer;
-}
+} */
+
+/* this is the focus stylng component */
+/* input:focus{
+  outline: 4px solid #2E1BA6;
+  border-color: transparent;
+} */
+
+
+/* button:focus{
+  outline: 4px solid black;
+  border-color: white;
+} */
+

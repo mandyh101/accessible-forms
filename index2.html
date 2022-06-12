@@ -4,18 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link ref="stylesheet" href="./css/main.css">
+  <link href="./css/main.css" rel="stylesheet" >
   <title>Accessible web forms</title>
 </head>
 <body>
-  <!-- STEP 1 - use semantic elements-->
+  <!-- STEP 2 - clear visual labels -->
   <div class="centerThings">
     <h1>Let's make a basic subscription form!</h1>
     <p>Sign up below 👇🏼 </p>
     <form action="" method="post">
-      <label><span class="required">*</span>Name</label>
+      <label><span class="required">*</span>Enter your full name</label>
       <input required>
-      <label><span class="required">*</span>Email</label>
+      <label><span class="required">*</span>Enter your email</label>
+      <input required>
+      <label><span class="required">*</span>Enter your mobile number</label>
+      <p><emphasis>Example format: XXX XXX XXXX</emphasis></p>
       <input required>
       <button type="submit">Submit</button>
     </form>
