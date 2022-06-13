@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link ref="stylesheet" href="./css/main.css">
+  <link href="./css/main.css" ref="stylesheet">
   <title>Accessible web forms</title>
 </head>
 <body>
@@ -12,12 +12,18 @@
   <div class="centerThings">
     <h1>Let's make a basic subscription form!</h1>
     <p>Sign up below 👇🏼 </p>
+
     <form action="" method="post">
-      <label><span class="required">*</span>Name</label>
-      <input required>
-      <label><span class="required">*</span>Email</label>
-      <input required>
-      <button type="submit">Submit</button>
+      <fieldset>
+        <legend>Enter your personal details here</legend>
+        <label></span>Name</label>
+        <input required>
+        <label></span>Email</label>
+        <input required>
+        <label></span>Number</label>
+        <input required>
+        <button type="submit">Submit</button>
+      </fieldset>
     </form>
   </div>
 

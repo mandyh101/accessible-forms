@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/main.css" rel="stylesheet" >
   <title>Accessible web forms</title>
+
+  <!-- focus styling here -->
   <style>
     input:focus{
     outline: 4px solid #2E1BA6;
@@ -17,6 +19,7 @@
     border-color: white;
     }
   </style>
+
 </head>
 <body>
   <!-- STEP 4 - focus styling -->
@@ -24,14 +27,22 @@
     <h1>Let's make a basic subscription form!</h1>
     <p>Sign up below 👇🏼 </p>
     <form action="" method="post">
-      <label for="full-name"><span class="required">*</span>Enter your full name</label>
-      <input type="text" name="name" id="full-name">
-      <label for="email"><span class="required">*</span>Enter your email</label> <!--changed to other style cos formatting was betetr!-->
-        <input type="email" name="full-name" required>
-      <label><span class="required">*</span>Enter your mobile number
-        <p><em>Example format: XXX XXX XXXX</em></p> 
-        <input type="text" name="mobile-number">
-      </label>
+      <fieldset>
+        <legend>Your personal details</legend>
+        <label for="full-name"><span class="required">*</span>Enter your full name</label>
+          <input type="text" name="name" id="full-name">
+        <label for="email"><span class="required">*</span>Enter your email</label> <!--changed to other style cos formatting was betetr!-->
+          <input type="email" name="full-name" required>
+        <label><span class="required">*</span>Enter your mobile number
+          <p><em>Example format: XXX XXX XXXX</em></p> 
+          <input type="text" name="mobile-number">
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Tell us what subscription to sign you up to!</legend>
+          <input class="input-search" type="text" name="search" aria-label="Search">
+        <button class="search-button" type="submit">Search</button>
+      </fieldset>
       <button type="submit">Submit</button>
     </form>
   </div>

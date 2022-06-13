@@ -55,27 +55,37 @@ input {
   margin-bottom: 16px;
   padding: 8px;
   font-size: 20px;
-  color: #0B0728;
+  color: #0B0728; 
   border-radius: 4px;
   border: 1px solid #8C899C;
   width: 50vw;
 }
 
-/* button for example one and two */
-button {
-  font-size: 24px;
+.input-search {
+  margin-bottom: 16px;
+  padding: 15px;
+  font-size: 20px;
+  color: #0B0728; 
+  border-radius: 4px;
+  border: 1px solid #8C899C;
+  width: 70%;
+}
+
+.search-button {
+float:right;  
+font-size: 18px;
   font-weight: 600;
   padding: 8px 24px;
-  background-color: #8C899C;
-  border: 1px solid #8C899C;
-  color: black;
+  background-color: #2E1BA6;
+  border: 1px solid #2E1BA6;
+  color: #FAFAFA;
   border-radius: 4px;
-  width: 100%;
+  width: 20%;
   cursor: pointer;
 }
 
 /* button for focus style */
-/* button {
+button {
   font-size: 24px;
   font-weight: 600;
   padding: 8px 24px;
@@ -85,7 +95,13 @@ button {
   border-radius: 4px;
   width: 100%;
   cursor: pointer;
-} */
+}
+
+legend {
+  padding: 15px;
+}
+
+
 
 /* this is the focus stylng component */
 /* input:focus{
