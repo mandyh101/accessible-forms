@@ -22,25 +22,24 @@
 
 </head>
 <body>
-  <!-- STEP 4 - focus styling -->
   <div class="centerThings">
     <h1>Let's make a basic subscription form!</h1>
     <p>Sign up below 👇🏼 </p>
-    <form action="" method="post">
-      <fieldset>
-        <legend>Your personal details</legend>
-        <label for="full-name"><span class="required">*</span>Enter your full name</label>
-          <input type="text" name="name" id="full-name">
-        <label for="email"><span class="required">*</span>Enter your email</label> <!--changed to other style cos formatting was betetr!-->
-          <input type="email" name="full-name" required>
+    <form action="" method="post"> <!--semantics-->
+      <fieldset> <!--fieldsets & legs-->
+        <legend>Your personal details</legend> 
+        <label for="full-name"><span class="required">*</span>Enter your full name</label> <!--Association form-label-->
+          <input type="text" name="name" id="full-name" placeholder="Jane Doe">
+        <label for="email"><span class="required">*</span>Enter your email</label> 
+          <input type="email" name="full-name" required placeholder="Jdoe@gmail.com">
         <label><span class="required">*</span>Enter your mobile number
-          <p><em>Example format: XXX XXX XXXX</em></p> 
+          <p><em>Example format: XXX XXX XXXX</em></p> <!--placeholders-->
           <input type="text" name="mobile-number">
         </label>
       </fieldset>
-      <fieldset>
-        <legend>Tell us what subscription to sign you up to!</legend>
-          <input class="input-search" type="text" name="search" aria-label="Search">
+      <fieldset> 
+        <legend>Tell us what subscription to sign you up to!</legend> 
+          <input class="input-search" type="text" name="search" aria-label="Search"> <!--aria labels-->
         <button class="search-button" type="submit">Search</button>
       </fieldset>
       <button type="submit">Submit</button>
