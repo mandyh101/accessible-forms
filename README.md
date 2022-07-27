@@ -16,15 +16,25 @@ One of my assignments that I had to complete while at Dev Academy was to present
 ###Tick these off to check your form's accessibility
 
 [ ] - I have used semantic HTML
+
 [ ] - have used ARIA attributes where HTML may be unclear
+
 [ ] - have made sure that form labels can be easily associated with inputs by providing a 'for' attribute on my label tag that matches the name and id attribute on my input tag.
+
 [ ] - I have used <fieldset> and <legend> tags to group data
+  
 [ ] - I have added contrasting focus indicators to inputs and buttons
+  
 [ ] - I have checked form labels are easy to understand
+  
 [ ] - I have checked placeholders are visible and helpful
+  
 [ ] - I have identified *required* fields so that they are clear to the user
+  
 [ ] - My form displays helpful error messages if the wrong input is provided
+  
 [ ] - I have checked that a user can tab through the form fields in the correct order
+  
 
 ##Code sources
   
